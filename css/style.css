@@ -1,0 +1,60 @@
+.af {
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+.robo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+ li.main-nav__item:hover {
+    color: orange;
+ } 
+ header.background {
+    background-image:url(/images/cranes.avif);
+    height: 40vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+ }
+ .overlay {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(20, 186, 236, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ }
+ div.card__body {
+    background-color: #e2e1e1;
+    padding: 1rem;
+ }
+ .card__article {
+    position: relative;
+    top: -50px;
+    z-index: 2;
+ }
+ img.svg {
+    width: 2em;
+    filter: invert(81%) sepia(36%) saturate(7261%) hue-rotate(1deg) brightness(104%) contrast(105%);
+ }
+ ul.footer__list {
+    list-style: none;
+ }
+ li.footer__list__item::before {
+    content: "✓";
+    color: orange;
+ }
+ footer {
+    background-color: black;
+
+ }
+
+
